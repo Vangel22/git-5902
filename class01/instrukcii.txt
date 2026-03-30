@@ -16,3 +16,43 @@ Prodolzuvanje so rabota:
 1. git add class01/instrukcii.txt
 2. git commit -m "Dodavanje na instrukcii fajlot"
 3. git push
+
+Od chasot:
+
+git add class01/t01/test01.txt 
+➜  git-5902 git:(main) ✗ git commit -m "test broj 1"
+[main 2109271] test broj 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 class01/t01/test01.txt
+➜  git-5902 git:(main) ✗ git add class01/t02/test02.txt 
+➜  git-5902 git:(main) ✗ git commit -m "test broj 2"
+[main 0374319] test broj 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 class01/t02/test02.txt
+➜  git-5902 git:(main) git add class01/t03 
+➜  git-5902 git:(main) ✗ git commit -m "test broj 3 so poveke fajlovi"
+[main 01c6211] test broj 3 so poveke fajlovi
+ 3 files changed, 3 insertions(+)
+ create mode 100644 class01/t03/auditoriska-vezba.txt
+ create mode 100644 class01/t03/prakticen.txt
+ create mode 100644 class01/t03/teoretski.txt
+➜  git-5902 git:(main) git push
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (17/17), 1.21 KiB | 1.21 MiB/s, done.
+Total 17 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/Vangel22/git-5902.git
+   6087a56..01c6211  main -> main
+
+
+Prezemanje na kod ( so pomos na student za prikaz ):
+
+1. git clone https://github.com/Vangel22/git-5902.git  - ova e posledniot commit -> git commit -m "test broj 3 so poveke fajlovi"
+- pred da gi napravam promenite vo intrukcii.txt i da go dodadam student.txt fajlot
+2. git pull ili git pull origin main - za da gi prezeme najnovite promeni od mojot repozitorium
+Vo git-5902 kaj studentot koj napravil clone veke postoi github repo, git proekt. Toa znaci deka 
+postoi .git fajl vo proektot koj bese kloniran. git pull ke gi prezeme najnovite promeni koi bile napraveni
+od strana na avtorot vo toj proekt
