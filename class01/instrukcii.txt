@@ -1,7 +1,17 @@
 Kako da napravam git repozitorium
 
-1. git init vo mojot izbran folder
+1. git init vo mojot izbran folder - se pravi na iniciranje proekt
 2. git status ni kazuva koj fajlovi se modificirani i moze da se dodadat vo repozitoriumot
 3. git add . - dodadi gi site folderi ili
 4. git add class01/README.md - toa znaci dodadi go samo README.md fajlot vo mojot 
 repozitorium so negoviot direktorium /class01
+5. git commit -m "Mojot prv github/git proekt"
+6. git remote add origin https://github.com/Vangel22/git-5902.git - kade se naogja mojot repozitorium na internet/Github - se pravi na iniciranje repozitoriumot vo Github
+7. git push -u origin main - main ni e granka, i pravime konfiguracija kade ke go prikaceme nasiot proekt - se pravi na iniciranje proekt
+
+Od changes vo staged changes - se koristi git add komandata
+
+Prodolzuvanje so rabota:
+
+1. git add class01/instrukcii.txt
+2. 
