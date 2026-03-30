@@ -14,4 +14,5 @@ Od changes vo staged changes - se koristi git add komandata
 Prodolzuvanje so rabota:
 
 1. git add class01/instrukcii.txt
-2. 
+2. git commit -m "Dodavanje na instrukcii fajlot"
+3. git push
