@@ -1,0 +1,7 @@
+Kako da napravam git repozitorium
+
+1. git init vo mojot izbran folder
+2. git status ni kazuva koj fajlovi se modificirani i moze da se dodadat vo repozitoriumot
+3. git add . - dodadi gi site folderi ili
+4. git add class01/README.md - toa znaci dodadi go samo README.md fajlot vo mojot 
+repozitorium so negoviot direktorium /class01
