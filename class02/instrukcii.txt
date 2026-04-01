@@ -16,3 +16,23 @@ Status na slucavanja:
 2. napravivme granka test-branch koga postoese samo class01 vo main grankata
 3. vo main grankata napravivme push so class02 i .gitignore fajl
 4. napravivme git checkout vo test-branch - vidovme deka vo test-branch postoi samo class01
+
+Cekori:
+
+➜  git-5902 git:(johndoe) git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+➜  git-5902 git:(main) clear
+➜  git-5902 git:(main) git fetch origin vangel
+From https://github.com/Vangel22/git-5902
+ * branch            vangel     -> FETCH_HEAD
+➜  git-5902 git:(main) git merge vangel
+Updating e0efd6e..854acc9
+Fast-forward
+ studenti.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 studenti.txt
+➜  git-5902 git:(main) git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Vangel22/git-5902.git
+   e0efd6e..854acc9  main -> main
