@@ -1,0 +1,4 @@
+1. Napravivme dirketno branch na Github preku UI
+2. git branch - komanda za da ni gi pokaze site poznati granki za nasiot kompjuter (lokalno)
+3. git fetch - zemi gi najnovite promeni od remote origin (nasiot Github)
+4. git fetch origin - zemi gi najnovite promeni od remote origin (nasiot Github)
