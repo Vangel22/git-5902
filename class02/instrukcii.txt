@@ -2,3 +2,17 @@
 2. git branch - komanda za da ni gi pokaze site poznati granki za nasiot kompjuter (lokalno)
 3. git fetch - zemi gi najnovite promeni od remote origin (nasiot Github)
 4. git fetch origin - zemi gi najnovite promeni od remote origin (nasiot Github)
+
+
+Za da promenime granka, ja pisuvame slednata komanda:
+
+1. git checkout test-branch
+
+
+
+Status na slucavanja:
+
+1. main granka so class01
+2. napravivme granka test-branch koga postoese samo class01 vo main grankata
+3. vo main grankata napravivme push so class02 i .gitignore fajl
+4. napravivme git checkout vo test-branch - vidovme deka vo test-branch postoi samo class01
