@@ -1,0 +1,20 @@
+- Домашна 2
+
+- Направете 2 гранки ( new-button, new-form ).
+- Во гранка new-button ке додадеме некој текст во фајл кој ќе се вика button.txt:
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+
+- Во гранка new-form ке додадеме текст во фајл кој ке се вика form.txt:
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+
+
+Резултат:
+new-button -> button.txt 
+new-form -> form.txt
+
+Во main треба го видиме следниот резултат:
+
+button.txt
+form.txt
